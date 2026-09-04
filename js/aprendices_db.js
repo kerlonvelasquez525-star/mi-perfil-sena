@@ -1,8 +1,3 @@
-/**
- * Base de datos inicial de aprendices e instructores.
- * Esta lista permite que el proyecto funcione de inmediato al abrir el index.html
- * en el navegador (incluso sin un servidor local con protocolo file://).
- */
 const APRENDICES_DATA = [
   {
     "id": "instructor-melqui-romero",
