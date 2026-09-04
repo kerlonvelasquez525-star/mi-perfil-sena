@@ -423,6 +423,12 @@ const APRENDICES_DATA = [
 
 ];
 
+APRENDICES_DATA.sort((perfilA, perfilB) =>
+  perfilA.nombreCompleto.localeCompare(perfilB.nombreCompleto, 'es', {
+    sensitivity: 'base'
+  })
+);
+
 // Si se ejecuta en entorno Node/módulos
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = APRENDICES_DATA;
